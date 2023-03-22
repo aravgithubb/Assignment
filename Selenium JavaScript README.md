@@ -6,7 +6,7 @@ validate the Music data drop down list
 
 validate the webpage title 
 
-validate the individual element of drop down
+validate the individual element of music drop down
 
 
 Framework :
