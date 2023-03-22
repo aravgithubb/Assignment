@@ -11,6 +11,7 @@ import com.infosys.ea.testbase.BaseClass;
 public class MusicGetSele extends BaseClass {
 	@Test
 	public void getSelected() throws Throwable {
+		String expected="Frank Jupiter";
 		List<WebElement> elements = driver.findElements(By.xpath("/html/body/app-root/app-festivals/ol/li"));
 		System.out.println("no of elements" + elements.size());
 		Thread.sleep(5000);
@@ -18,7 +19,9 @@ public class MusicGetSele extends BaseClass {
 			if (elem.getText().equals("Propeller"))
 
 			{
-				System.out.println("Element " + elem.getText());
+				// verifying the getting text with expected
+		                SoftAssert verify= new SoftAssert();
+				verify.assertEquals(elem, expected);
 			}
 		}
 	}
