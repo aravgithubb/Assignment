@@ -10,6 +10,7 @@ Framework Used :
 3. USED MAVEN BUILD TOOL 
 
 FRAMEWORK FOLDER STRUCTURE :
+IDE : Eclipse
 Test Base class : (TestBase.java) deals with all the common functions used by all the pages.
 packages: separate packages for Pages and Tests. All the web page related classes come under the Pages package and all the tests related classes come under Tests package.
 Screenshots :Screenshots will be captured and stored in a separate folder
