@@ -24,8 +24,11 @@ public class MusicData extends BaseClass {
 		// looping the elements to get the individual element details.
 		for (WebElement elem : elements) 
 		{
-			// printing the elements text in the console.
+			// printing the elements text and attribute value in the console.
 			System.out.println("Element " + elem.getText());
+			System.out.println("Element " + elem.getAttribute("style");
+
+
 			
 		}
 	}
