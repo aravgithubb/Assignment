@@ -2,11 +2,11 @@
 
 Validation performed :
 
-validate the Music data
+validate the Music data drop down list
 
 validate the webpage title 
 
-validate the individual element
+validate the individual element of drop down
 
 
 Framework :
