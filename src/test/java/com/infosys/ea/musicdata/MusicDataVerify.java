@@ -15,7 +15,7 @@ public class MusicDataVerify extends BaseClass{
   {
 	  String expectedtitle="EaCodingTests";
 	  String actualtitle=driver.getTitle();
- // comparing the expected and actual title using assertions
+ // comparing and validating the expected and actual title using assertions
 	  Assert.assertEquals(actualtitle, expectedtitle);
   }
 }
