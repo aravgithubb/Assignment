@@ -1,7 +1,7 @@
 # Assignment
 Validation performed :
 1. validate the Music data
-2. validate the webpage title using assertion
+2. validate the webpage title 
 3. validate the individual element
 
 Framework Used :
