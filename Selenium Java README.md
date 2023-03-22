@@ -1,8 +1,8 @@
 # Assignment
 Validation performed :
-1. validate the Music data
+1. validate the  Music festival drop down list
 2. validate the webpage title 
-3. validate the individual element
+3. validate the individual element of music festival drop down list
 
 Framework Used :
 1. TestNG FRAMEWORK USING PAGE OBJECT MODEL
